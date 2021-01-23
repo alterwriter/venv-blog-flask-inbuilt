@@ -9,4 +9,6 @@ clone this repository then move all to the virtual folder that you have created 
 
 open script, then on your cmd (if windows) using ```activate``` for activating, and ```deactivate``` for deactivating. when you using linux, just open script and ```source activate``` for activating, and ```source deactivate``` for deactivating.
 
+after activating, installing all of the requirements at ```pip install -r requirements.txt```
+
 enjoy
