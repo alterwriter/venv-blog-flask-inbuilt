@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block judul %} TAMBAH GAMBAR {% endblock %}
+
+{% block JudulKonten %}
+    <h3 class="box-title"> Tambah Gambar </h3>
+{% endblock %}
+
+{% block konten%}
+    <form action="{{url_for('proses_tambah')}}" method="POST">
+        <div class="form-group">
+            <label>Gambar</label>
+            <input type="input" name="image" class="form-control" placeholder="/nama_folder/namafile.extensi">
+        </div>
+        <div class="box-footer">
+            <button type="reset" class="btn btn-default"> Cancel </button>
+            <button type="submit" class="btn btn-primary pull-right"> Submit </button>
+        </div>
+    </form>
+{% endblock %}
+
